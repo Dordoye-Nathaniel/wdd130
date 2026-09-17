@@ -21,7 +21,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ article {
     position: absolute;
     color: #fff;
     text-align: left;
-    top: 295px;
+    top: 315px;
     width: 95%;
     left: 0;
     right: 0;
@@ -96,6 +96,10 @@ h2 {
     color: #fff;
     height: 50px;
     padding: 10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 section p {
@@ -104,4 +108,9 @@ section p {
 
 footer p {
     border-top: 1px solid var(--accent1-color);
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
 }
