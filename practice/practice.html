@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Dordoye | WDD 130</title>
+    <meta name="description"
+      content="This is a homepage describing my profile as a Software Engineer">
+    <meta name="author" content="Nathaniel Dordoye">
+    <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Klenam</td>
+                    <td>Convex Optimization</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>ML & DS</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>Stephen</td>
+                    <td>Convex Optimization</td>
+                    <td>100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>195</td>
+                </tr>
+            </tfoot>
+        </table>
+        <form>
+            <label for="fullname">Username:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email">
+
+            <label for="phonenumber">Contact</label>
+            <input type="text" id="phonenumber" name="phonenumber"
+              placeholder="+233 (0) 59-701-7844">
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+
+            <label>
+                <input type="dropdow" name="newsletter" id="newsletter">Send me Updates</label>
+
+            <button type="submit">Submit Contac Information</button>
+        </form>
+    </main>
+</body>
+
+</html>
