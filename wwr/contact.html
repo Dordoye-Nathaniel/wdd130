@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Swift Expeditions</title>
+
+    <meta name="description" content="Get in touch with Swift Expeditions. Find our address,
+      phone number, email, and send us a message about trips, reservations, or general questions.">
+
+    <meta name="author" content="Nathaniel Dordoye">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/logo.jpg" alt="Swift Expeditions Logo" width="50">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Swift Expeditions</h1>
+
+        <div class="company-address">
+            <p>123 River Road</p>
+            <p>Rexburg, ID 83440</p>
+            <p>(208) 555-1234</p>
+            <p>info@swiftexpeditions.com</p>
+        </div>
+
+        <div class="contact-main">
+
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.123456789!2d-111.7897!3d43.8266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQ5JzM1LjgiTiAxMTHCsDQ3JzIyLjkiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-row">
+                    <label for="name" class="row-label">Name</label>
+                    <div class="row-content">
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="email" class="row-label">Email</label>
+                    <div class="row-content">
+                        <input type="email" id="email" name="email" placeholder="Placeholder"
+                          required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <span class="row-label">Message Purpose</span>
+                    <div class="row-content radio-group">
+                        <label><input type="radio" name="purpose" value="General Inquiry" checked>
+                            General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="Reservation Question">
+                            Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="Website Suggestion">
+                            Website Suggestion</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="message" class="row-label">Message</label>
+                    <div class="row-content">
+                        <textarea id="message" name="message" rows="5" placeholder="Type here"
+                          required></textarea>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Get in Touch!</button>
+
+            </form>
+
+        </div>
+
+        <section class="employees">
+
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-list">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Photo of Jordan Rivers">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Photo of Casey Waters">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Photo of Morgan Banks">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>© 2026 Swift Expeditions | Nathaniel Dordoye</p>
+
+        <nav class="socialmedia">
+
+            <a href="https://web.whatsapp.com/">
+                <img src="images/whatsapp.jpg" alt="WhatsApp">
+            </a>
+
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.jpg" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram">
+            </a>
+
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
