@@ -49,7 +49,6 @@ header {
 
 ul a {
     display: grid;
-    grid-template-columns: repeat(5, fr);
     align-items: center;
     justify-content: space-evenly;
 }
